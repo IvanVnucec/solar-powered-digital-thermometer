@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <script src="https://pixijs.download/release/pixi.js"></script>
+</head>
+
+<body>
+    <script>
+        let app = new PIXI.Application({ width: 640, height: 360 });
+        document.body.appendChild(app.view);
+
+        const digit = createDigit(20, 30);
+        app.stage.addChild(digit);
+
+        function createDigit(x = 0, y = 0) {
+            const rects = [
+                createRect(x, y + 20, 10, 100),
+                createRect(x + 110, y + 20, 10, 100),
+                createRect(x + 20, y, 80, 10),
+                createRect(x + 20, y + 130, 80, 10),
+                createRect(x, y + 150, 10, 100),
+                createRect(x + 110, y + 150, 10, 100),
+                createRect(x + 20, y + 260, 80, 10),
+            ];
+
+            const container = new PIXI.Container();
+            rects.forEach((rect) => container.addChild(rect));
+            return container;
+        }
+
+        function createRect(x, y, w, h) {
+            const obj = new PIXI.Graphics();
+            obj.beginFill(0xffffffff);
+            obj.drawRect(x, y, w, h);
+            obj.endFill();
+            return obj
+        }
+    </script>
+</body>
+
+</html>
