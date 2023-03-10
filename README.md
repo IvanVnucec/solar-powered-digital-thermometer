@@ -27,4 +27,5 @@ Solar powered digital thermometer with 7-segment LCD display, working without ba
 
 ## Software
 - [awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust) - Embedded rust references
-- [cortex-m-quickstart](https://github.com/rust-embedded/cortex-m-quickstart) - Arm Cortex-M Rust quickstart
+- [cortex-m-quickstart](https://github.com/rust-embedded/cortex-m-quickstart) - ARM Cortex-M Rust quickstart
+- [](https://os.phil-opp.com/) - Really good Embedded Rurst code reference
