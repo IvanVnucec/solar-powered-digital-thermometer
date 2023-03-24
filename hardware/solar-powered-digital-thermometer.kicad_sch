@@ -542,7 +542,7 @@
     (property "Value" "~" (at 198.12 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 198.12 92.71 0)
+    (property "Footprint" "custom:OD-301" (at 198.12 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 198.12 92.71 0)
