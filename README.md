@@ -30,6 +30,7 @@ Solar powered digital thermometer with 7-segment LCD display, working without ba
 - [STM32L010K8](https://www.st.com/en/microcontrollers-microprocessors/stm32l010k8.html)
 - [74AHC595 - 8-bit serial-in/serial-out or parallel-out shift register withoutput latches](https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf)
   - [Driving a 3 Digit LCD Using 74HC595 Shift Registers From a PIC Micro-Controller](https://www.youtube.com/watch?v=0vjSf-H-FJM)
+- [OD-301 - Transflective 7-Segment Character Display](https://www.digikey.com/en/products/detail/orient-display/OD-301/12089299) - only 10 pins, no need for shift registers
 
 ## Software
 
